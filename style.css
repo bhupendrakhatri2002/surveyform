@@ -10,7 +10,7 @@ html,body{
     /* background-image: url(https://images.unsplash.com/photo-1689240766441-29de936097cb?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8); */
     overflow: hidden;
 
-background-image:linear-gradient(transparent,black),  url(julian-yu-_WuPjE-MPHo-unsplash.jpg);
+background-image:linear-gradient(transparent,black),  url(/julian-yu-_WuPjE-MPHo-unsplash.webp);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
