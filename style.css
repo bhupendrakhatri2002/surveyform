@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+    /* background-image: url(https://images.unsplash.com/photo-1689240766441-29de936097cb?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8); */
+    overflow: hidden;
+
+background-image:linear-gradient(transparent,black),  url(julian-yu-_WuPjE-MPHo-unsplash.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.survey{
+    text-align: center;
+    margin-top: .5%;
+    padding: .5% 1%;
+   font-size: 3vh;
+   color: rgba(198, 10, 10, 0.744);
+}
+.forms{
+    /* border: 2px solid rgb(214, 197, 197); */
+    text-align:left;
+    margin-left: 35%;
+    width: 40%;
+    height: 90%;
+    padding: 3px 20px;
+    margin-top:2px;
+    margin-bottom: 20px;
+  /* background-image:linear-gradient(transparent,black),url(https://images.unsplash.com/photo-1638249346145-0c8546271431?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8); */
+  background-color: rgb(131, 154, 133);
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+    font-family: sans-serif;
+    font-size: 2.5vh;
+    font-weight: bolder;
+    color: rgb(245, 249, 12);
+    
+    
+}
+
+input{
+    background-color: transparent;
+    color: rgb(32, 15, 163);
+    border: none;
+}
+.name{
+    padding: 4px 6px ;
+    margin-top: 1%;
+    margin-left: 5px;
+    font-size: 15px;
+    border: 2px solid red;
+    color: blue;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 50%;
+    
+}
+
+.name2{
+    padding: 4px 6px ;
+    margin-top: 1%;
+    margin-left: 5px;
+    font-size: 15px;
+    border: 2px solid red;
+    color: blue;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 15%;
+    
+}
+.name3{
+    padding: 4px 6px ;
+    margin-top: 1%;
+    margin-left: 5px;
+    font-size: 15px;
+    border: 2px solid red;
+    color: blue;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 25%;
+    
+}
+
+button{
+    padding: 3px 3px;
+     background-color: aqua;
+     color: blue;
+    font-size: 20px;
+    border-radius: 6px;
+    /* margin-top: 1px; */
+    margin-left: 20%;
+    margin-bottom: 1px;
+
+}
+@media (max-width:900px) {
+
+    .forms{
+        width: 90%;
+        margin-left: 5%;
+        height: 100%;
+    }
+    
+}
+
+
